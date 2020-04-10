@@ -1,0 +1,4 @@
+#input, #output{width:100%;border:0;background:#ddd;padding:15px;color:#222;font-size:14px;}
+.button-wrapper{margin:1.5em auto;display:block;text-align:center;}
+#encode, #decode, #clearstyles{background:#9c88ff;color:#fff;border:2px solid transparent;padding:10px 15px;margin:0 5px;border-radius:3px;box-shadow:0 3px 10px rgba(0,0,0,.1);cursor:pointer;transition:.2s ease-in-out}
+#encode:hover, #decode:hover, #clearstyles:hover{background:#fff;border:2px solid #9c88ff;color:#9c88ff;}
