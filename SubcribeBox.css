@@ -1,0 +1,102 @@
+/* Subscribe Box */
+#wenxploitSubscribe {width:300px; height:auto; background-color:#eee; border:1px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px; padding:0px}
+#wenxploitSubscribe .email__ {padding:15px 15px 5px;}
+#wenxploitSubscribe .email {margin:auto; color:#555; text-align:center;}
+#wenxploitSubscribe .email:before {content:&#39;&#39;; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:wenxploitRing 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:wenxploitRing 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:wenxploitRing 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z&#39; fill=&#39;%23008c5f&#39;/%3E%3C/svg%3E&quot;) center center / 50px no-repeat;}
+#wenxploitSubscribe .medsos__ {padding:15px 0px; line-height:0px; border-top:1px solid #ccc;}
+#wenxploitSubscribe form {display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; flex-wrap:nowrap; align-items:center; margin:0px 0px 15px; padding:0px; position:relative;}
+#wenxploitSubscribe form:before {left:15px; position:absolute; display:block; width:20px; height:20px; background:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z&#39; fill=&#39;%23717171&#39;/%3E%3C/svg%3E&quot;) no-repeat; content:&#39;&#39;;}
+#wenxploitSubscribe input {width: calc(100% - 35px); background-color:#ccc; line-height:1.5em; border:1px solid #ccc; border-right:0px; padding:8px 10px 8px 40px; font-size:12px; text-align:left !important; border-radius:50px 0px 0px 50px; outline:none; outline-width:0px; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none;}
+#wenxploitSubscribe button {background-color:#008c5f; width:40px; min-width:40px; height:36px; margin:0px; padding:0px; border:0px; box-shadow:none; vertical-align:top; cursor:pointer; transition:all .3s ease; background-image:unset; border-radius:0px 50px 50px 0px;}
+#wenxploitSubscribe button:hover, #wenxploitSubscribe button:focus {background-color:var(--color-hover);}
+#wenxploitSubscribe button:before {display:inline-block; width:20px; height:20px; margin:0px; background:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M2,21L23,12L2,3V10L17,12L2,14V21Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;) no-repeat; content:&#39;&#39;; vertical-align:-3px;}
+#wenxploitSubscribe .medsos {width:100%; text-align:center;}
+#wenxploitSubscribe .medsos svg {width:20px;height:20px;margin-top:7px}
+#wenxploitSubscribe .medsos svg path {fill:#000000}
+#wenxploitSubscribe .medsos a {display:inline-block; margin-right:7px; width:35px; height:35px; box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.4); transition: all ease-in-out 300ms; border-radius:100px;}
+#wenxploitSubscribe .medsos a:last-child {margin-right:0px;}
+#wenxploitSubscribe .medsos a:hover {box-shadow: 0px 23px 15px -3px rgba(0,0,0,0.25); transform: translate(0px, -10px) scale(1.05);}
+#wenxploitSubscribe .medsos .facebook{background:#3a579a}
+#wenxploitSubscribe .medsos .twitter {background:#00abf0}
+#wenxploitSubscribe .medsos .googleplus {background:#df4a32}
+#wenxploitSubscribe .medsos .youtube {background:#cc181e}
+#wenxploitSubscribe .medsos .instagram {background:#992ebc}
+#wenxploitSubscribe .medsos .pinterest {background:#e60023}
+@-webkit-keyframes wenxploitRing{
+  0% { -webkit-transform: rotateZ(0); }
+  1% { -webkit-transform: rotateZ(30deg); }
+  3% { -webkit-transform: rotateZ(-28deg); }
+  5% { -webkit-transform: rotateZ(34deg); }
+  7% { -webkit-transform: rotateZ(-32deg); }
+  9% { -webkit-transform: rotateZ(30deg); }
+  11% { -webkit-transform: rotateZ(-28deg); }
+  13% { -webkit-transform: rotateZ(26deg); }
+  15% { -webkit-transform: rotateZ(-24deg); }
+  17% { -webkit-transform: rotateZ(22deg); }
+  19% { -webkit-transform: rotateZ(-20deg); }
+  21% { -webkit-transform: rotateZ(18deg); }
+  23% { -webkit-transform: rotateZ(-16deg); }
+  25% { -webkit-transform: rotateZ(14deg); }
+  27% { -webkit-transform: rotateZ(-12deg); }
+  29% { -webkit-transform: rotateZ(10deg); }
+  31% { -webkit-transform: rotateZ(-8deg); }
+  33% { -webkit-transform: rotateZ(6deg); }
+  35% { -webkit-transform: rotateZ(-4deg); }
+  37% { -webkit-transform: rotateZ(2deg); }
+  39% { -webkit-transform: rotateZ(-1deg); }
+  41% { -webkit-transform: rotateZ(1deg); }
+  43% { -webkit-transform: rotateZ(0); }
+  100% { -webkit-transform: rotateZ(0); }
+}
+@-moz-keyframes wenxploitRing{
+  0% { -moz-transform: rotate(0); }
+  1% { -moz-transform: rotate(30deg); }
+  3% { -moz-transform: rotate(-28deg); }
+  5% { -moz-transform: rotate(34deg); }
+  7% { -moz-transform: rotate(-32deg); }
+  9% { -moz-transform: rotate(30deg); }
+  11% { -moz-transform: rotate(-28deg); }
+  13% { -moz-transform: rotate(26deg); }
+  15% { -moz-transform: rotate(-24deg); }
+  17% { -moz-transform: rotate(22deg); }
+  19% { -moz-transform: rotate(-20deg); }
+  21% { -moz-transform: rotate(18deg); }
+  23% { -moz-transform: rotate(-16deg); }
+  25% { -moz-transform: rotate(14deg); }
+  27% { -moz-transform: rotate(-12deg); }
+  29% { -moz-transform: rotate(10deg); }
+  31% { -moz-transform: rotate(-8deg); }
+  33% { -moz-transform: rotate(6deg); }
+  35% { -moz-transform: rotate(-4deg); }
+  37% { -moz-transform: rotate(2deg); }
+  39% { -moz-transform: rotate(-1deg); }
+  41% { -moz-transform: rotate(1deg); }
+  43% { -moz-transform: rotate(0); }
+  100% { -moz-transform: rotate(0); }
+}
+@keyframes wenxploitRing{
+  0% { transform: rotate(0); }
+  1% { transform: rotate(30deg); }
+  3% { transform: rotate(-28deg); }
+  5% { transform: rotate(34deg); }
+  7% { transform: rotate(-32deg); }
+  9% { transform: rotate(30deg); }
+  11% { transform: rotate(-28deg); }
+  13% { transform: rotate(26deg); }
+  15% { transform: rotate(-24deg); }
+  17% { transform: rotate(22deg); }
+  19% { transform: rotate(-20deg); }
+  21% { transform: rotate(18deg); }
+  23% { transform: rotate(-16deg); }
+  25% { transform: rotate(14deg); }
+  27% { transform: rotate(-12deg); }
+  29% { transform: rotate(10deg); }
+  31% { transform: rotate(-8deg); }
+  33% { transform: rotate(6deg); }
+  35% { transform: rotate(-4deg); }
+  37% { transform: rotate(2deg); }
+  39% { transform: rotate(-1deg); }
+  41% { transform: rotate(1deg); }
+  43% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}
